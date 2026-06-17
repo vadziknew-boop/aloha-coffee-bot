@@ -13,9 +13,9 @@ from telegram.ext import (
 )
 
 # ================== НАСТРОЙКИ ==================
-TOKEN = TOKEN = os.getenv("BOT_TOKEN")
-STAFF_CHAT_ID = int(os.getenv("STAFF_CHAT_ID"))
-ADMIN_ID = int(os.getenv("ADMIN_ID"))
+TOKEN = os.environ["BOT_TOKEN"]
+STAFF_CHAT_ID = int(os.environ["STAFF_CHAT_ID"])
+ADMIN_ID = int(os.environ["ADMIN_ID"])
 
 MENU_FILE = "menu.json"
 LOCATIONS_FILE = "locations.json"
