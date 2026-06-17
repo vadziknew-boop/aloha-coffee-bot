@@ -13,7 +13,7 @@ from telegram.ext import (
 )
 
 # ================== НАСТРОЙКИ ==================
-TOKEN = "8525903678:AAH2hEENKFyyr-UXdc7hFnth_J3lDXiGBtw"
+TOKEN = "8525903678:AAGUDpBKwaFoXmCITcttc062tlUX1fwtsrI"
 STAFF_CHAT_ID = -1004342122879
 ADMIN_ID = 477402841
 
